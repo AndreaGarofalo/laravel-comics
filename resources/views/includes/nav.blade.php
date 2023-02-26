@@ -1,4 +1,4 @@
-    <div class="container">
+    <div class="container nav">
       <a href="/"><img src="{{ asset('images/dc-logo.png') }}" alt="DC Logo" /></a>
       <ul>
         <li>
