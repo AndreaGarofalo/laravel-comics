@@ -9,7 +9,7 @@
         @foreach($series as $serie)
         <div class="card-col">
           <figure>
-            <img src="{{ $serie['thumb'] }}" alt="{{ $serie['title'] }}" />
+            <img class="img-fluid" src="{{ $serie['thumb'] }}" alt="{{ $serie['title'] }}" />
           </figure>
           <figcaption>
             <h6>{{ $serie['series'] }}</h6>
